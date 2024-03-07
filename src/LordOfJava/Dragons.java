@@ -3,7 +3,7 @@ package LordOfJava;
 public class Dragons extends Creature implements IBurn{
     private double flamesPower;
     private int flySpeed;
-    public Dragons(Abilities abilities, String nickname, long score, double stamina, double speed, int agility,double flamesPower, int flySpeed) {
+    public Dragons(Abilities abilities, String nickname, long score, double stamina, double speed, int agility) {
         super(abilities, nickname, score, stamina, speed, agility);
         this.flamesPower = flamesPower;
         this.flySpeed = flySpeed;
